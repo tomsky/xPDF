@@ -1,0 +1,59 @@
+--#### This handler is called when the prefs window is opend ####--
+on will open theObject
+	display dialog (name of theObject as string)
+	--> Set the state of the prefrences
+	set contents of button "cb_LeadingZero" of window "preferences" to contents of default entry "prefLeadingZero" of user defaults
+	set contents of button "cb_ReplaceFiles" of window "preferences" to contents of default entry "prefReplaceFiles" of user defaults
+	set contents of text field "tf_scriptTimeout" of window "preferences" to contents of default entry "prefScriptTimeout" of user defaults
+end will open
+
+--#### This handler is called when the prefs window is closed ####--
+on will close theObject
+	--> Update the values in the plistfile based on the current stat of the UI in the pref window
+	set contents of default entry "prefLeadingZero" of user defaults to contents of button "cb_LeadingZero" of window "preferences" as boolean
+	set contents of default entry "prefReplaceFiles" of user defaults to contents of button "cb_ReplaceFiles" of window "preferences" as boolean
+	set contents of default entry "prefScriptTimeout" of user defaults to contents of text field "tf_scriptTimeout" of window "preferences" as number
+	
+	-->If the prefs are changed during a session we need to update out global values
+	set prefLeadingZero to contents of button "cb_LeadingZero" of window "preferences" as boolean
+	set prefReplaceFiles to contents of button "cb_ReplaceFiles" of window "preferences" as boolean
+	set prefScriptTimeout to contents of text field "tf_scriptTimeout" of window "preferences" as number
+end will close
+
+on clicked theObject
+	(*Add your script here.*)
+end clicked
+
+on panel ended theObject with result withResult
+	(*Add your script here.*)
+end panel ended
+
+(*
+--#### This is called when the user whants to check for updates ####--
+on clicked theObject
+	--> Set a number for the current version
+	set currentVersion to "22" as number
+	
+	--> Set the URL for the xml datafile
+	set the_URL to "http://www.creatordesign.no/xpdf/data/update.xml"
+	--> Open the xmldoc
+	set the_doc to XMLOpen the_URL
+	--> Set the root of the doc
+	set the_root to XMLRoot the_doc
+	
+	-->  Locate the version in the XML doc 
+	set the_child to XMLChild the_root index 2
+	set newestVersion to XMLGetText the_child
+	set newestVersion to newestVersion as number
+	
+	--> Close the xmlconnection
+	XMLClose the_doc
+	
+	if newestVersion > currentVersion then
+		display dialog "You dont have the latest version"
+	else
+		display dialog "You allready have the latest version"
+	end if
+	
+end clicked
+*)

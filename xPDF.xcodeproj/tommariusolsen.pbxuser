@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 728}}";
+			sepNavSelRange = "{106, 0}";
+			sepNavVisRect = "{{0, 0}, {1341, 728}}";
+		};
+	};
+	257572C2072881A4000BE9CA /* xPDF */ = {
+		activeExec = 0;
+		executables = (
+			25D9445407B1533600FF306F /* xPDF */,
+		);
+	};
+	257572D5072881A4000BE9CA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1246, 863}}";
+			sepNavSelRange = "{384, 0}";
+			sepNavVisRect = "{{0, 0}, {1246, 863}}";
+		};
+	};
+	25D9445407B1533600FF306F /* xPDF */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = ASKDebuggerLaunchConfig;
+				displayName = "AppleScript Debugger";
+				identifier = com.apple.AppleScriptStudio.ASKDebugLaunchConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = ASKDebugger;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = NO;
+				name = AEDebug;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugSends;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugReceives;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugVerbose;
+				value = 1;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = xPDF;
+		sourceDirectories = (
+		);
+	};
+	25D9445A07B1533700FF306F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	25D9445B07B1533700FF306F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 25D9445407B1533600FF306F /* xPDF */;
+		activeTarget = 257572C2072881A4000BE9CA /* xPDF */;
+		addToTargets = (
+			257572C2072881A4000BE9CA /* xPDF */,
+		);
+		breakpoints = (
+			C865F0720A25E70600DF8DE4 /* xPDF.applescript:883 */,
+		);
+		breakpointsGroup = C898B2780A20F2CF0067BDA9 /* XCBreakpointsBucket */;
+		codeSenseManager = 25D9445B07B1533700FF306F /* Code sense */;
+		executables = (
+			25D9445407B1533600FF306F /* xPDF */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_ContinueID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					598,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					400,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					829,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					649,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 195430476;
+			PBXWorkspaceStateSaveDate = 195430476;
+		};
+		perUserProjectItems = {
+			C813E9DE0B0B7EFC004646DB /* PBXTextBookmark */ = C813E9DE0B0B7EFC004646DB /* PBXTextBookmark */;
+			C813E9E30B0B7EFC004646DB /* PBXTextBookmark */ = C813E9E30B0B7EFC004646DB /* PBXTextBookmark */;
+			C86394C10BA608F300ABB576 /* PBXBookmark */ = C86394C10BA608F300ABB576 /* PBXBookmark */;
+			C86394C80BA61FEC00ABB576 /* PBXTextBookmark */ = C86394C80BA61FEC00ABB576 /* PBXTextBookmark */;
+			C863D5980A1F62740072703F /* PBXTextBookmark */ = C863D5980A1F62740072703F /* PBXTextBookmark */;
+			C881B5ED0A2320F90002EBEE /* PBXTextBookmark */ = C881B5ED0A2320F90002EBEE /* PBXTextBookmark */;
+			C887A63F0A227F81002291DA /* PBXTextBookmark */ = C887A63F0A227F81002291DA /* PBXTextBookmark */;
+			C887A6410A227F81002291DA /* PBXTextBookmark */ = C887A6410A227F81002291DA /* PBXTextBookmark */;
+			C88E5D210AD433F300FC2BEC /* PBXTextBookmark */ = C88E5D210AD433F300FC2BEC /* PBXTextBookmark */;
+			C898B23D0A20EDA80067BDA9 /* PBXTextBookmark */ = C898B23D0A20EDA80067BDA9 /* PBXTextBookmark */;
+			C898B2420A20EDA80067BDA9 /* PBXTextBookmark */ = C898B2420A20EDA80067BDA9 /* PBXTextBookmark */;
+			C8ADDE110AF7B68F00F13538 /* PBXTextBookmark */ = C8ADDE110AF7B68F00F13538 /* PBXTextBookmark */;
+			C8ADDE140AF7B68F00F13538 /* PBXTextBookmark */ = C8ADDE140AF7B68F00F13538 /* PBXTextBookmark */;
+			C8FC0E6A0B79D2B100ED519B /* PBXTextBookmark */ = C8FC0E6A0B79D2B100ED519B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 25D9445A07B1533700FF306F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C813E9DE0B0B7EFC004646DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C813E9DF0B0B7EFC004646DB /* update.xml */;
+		name = "(null): 5";
+		rLen = 0;
+		rLoc = 128;
+		rType = 0;
+		vrLen = 128;
+		vrLoc = 0;
+	};
+	C813E9DF0B0B7EFC004646DB /* update.xml */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = update.xml;
+		path = /Applications/JRun4/servers/default/cfusion/creatordesign.no/www/xpdf/data/update.xml;
+		sourceTree = "<absolute>";
+	};
+	C813E9E30B0B7EFC004646DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C813E9E40B0B7EFC004646DB /* update.xml */;
+		name = "(null): 5";
+		rLen = 0;
+		rLoc = 128;
+		rType = 0;
+		vrLen = 128;
+		vrLoc = 0;
+	};
+	C813E9E40B0B7EFC004646DB /* update.xml */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = update.xml;
+		path = /Applications/JRun4/servers/default/cfusion/creatordesign.no/www/xpdf/data/update.xml;
+		sourceTree = "<absolute>";
+	};
+	C86394C10BA608F300ABB576 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* xPDF.applescript */;
+	};
+	C86394C80BA61FEC00ABB576 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* xPDF.applescript */;
+		name = "";
+		rLen = 1;
+		rLoc = 43509;
+		rType = 0;
+		vrLen = 2871;
+		vrLoc = 42327;
+	};
+	C863D5370A1F37F40072703F /* xDrop.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1021, 1305}}";
+			sepNavSelRange = "{3304, 0}";
+			sepNavVisRect = "{{0, 357}, {1021, 708}}";
+		};
+	};
+	C863D5980A1F62740072703F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		name = "Info.plist: 33";
+		rLen = 0;
+		rLoc = 941;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 0;
+	};
+	C865F0720A25E70600DF8DE4 /* xPDF.applescript:883 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = DA206CF3015C4E8B03C91932 /* xPDF.applescript */;
+		functionName = "on updatedSummary";
+		hitCount = 1;
+		lineNumber = 883;
+		modificationTime = 195337420.854989;
+		state = 2;
+	};
+	C881B5ED0A2320F90002EBEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "English: 3";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	C887A63B0A227F73002291DA /* data.dependency */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = data.dependency;
+		path = "/Jobber/Creator_project/xPDF 2.0/English.lproj/MainMenu.nib/data.dependency";
+		sourceTree = "<absolute>";
+	};
+	C887A63F0A227F81002291DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C887A63B0A227F73002291DA /* data.dependency */;
+		name = "data.dependency: 11";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	C887A6410A227F81002291DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C887A63B0A227F73002291DA /* data.dependency */;
+		name = "data.dependency: 11";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	C88E5D210AD433F300FC2BEC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "English: 4";
+		rLen = 0;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	C898B23D0A20EDA80067BDA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C898B23E0A20EDA80067BDA9 /* xPDF.applescript */;
+		name = "(null): 68";
+		rLen = 125;
+		rLoc = 4171;
+		rType = 0;
+		vrLen = 1962;
+		vrLoc = 3335;
+	};
+	C898B23E0A20EDA80067BDA9 /* xPDF.applescript */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.applescript;
+		name = xPDF.applescript;
+		path = "/Jobber/Creator_project/xPDF 1.3/xPDF.applescript";
+		sourceTree = "<absolute>";
+	};
+	C898B2420A20EDA80067BDA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C898B2430A20EDA80067BDA9 /* xPDF.applescript */;
+		name = "(null): 68";
+		rLen = 125;
+		rLoc = 4171;
+		rType = 0;
+		vrLen = 1962;
+		vrLoc = 3335;
+	};
+	C898B2430A20EDA80067BDA9 /* xPDF.applescript */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.applescript;
+		name = xPDF.applescript;
+		path = "/Jobber/Creator_project/xPDF 1.3/xPDF.applescript";
+		sourceTree = "<absolute>";
+	};
+	C898B2780A20F2CF0067BDA9 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			C865F0720A25E70600DF8DE4 /* xPDF.applescript:883 */,
+		);
+	};
+	C8ADDDF10AF7AE3100F13538 /* classes.nib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = classes.nib;
+		path = "/Jobber/Creator_project/xPDF 2.0/English.lproj/MainMenu.nib/classes.nib";
+		sourceTree = "<absolute>";
+	};
+	C8ADDE110AF7B68F00F13538 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C8ADDDF10AF7AE3100F13538 /* classes.nib */;
+		name = "classes.nib: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 208;
+		vrLoc = 0;
+	};
+	C8ADDE140AF7B68F00F13538 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C8ADDDF10AF7AE3100F13538 /* classes.nib */;
+		name = "classes.nib: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 208;
+		vrLoc = 0;
+	};
+	C8FC0E6A0B79D2B100ED519B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		name = "Info.plist: 10";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	DA206CF3015C4E8B03C91932 /* xPDF.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1778, 14189}}";
+			sepNavSelRange = "{43509, 1}";
+			sepNavVisRect = "{{146, 13424}, {1021, 708}}";
+			sepNavWindowFrame = "{{19, 387}, {728, 610}}";
+		};
+	};
+}
